@@ -23,7 +23,7 @@ function App() {
       setCharacter(res.data);
     });
     setInterval(() => {
-      setMessage('Error');
+      setMessage('Character not found!');
     }, 5000);
     // eslint-disable-next-line
   }, [search])
